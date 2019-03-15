@@ -12,6 +12,7 @@
 */
 
 Route::group(["prefix" => "/dashboard", 'middleware' => ['auth:admin']], function () {
+
     Route::resource('/items','ItemController');
     Route::resource('/groups','GroupController');
     Route::get('/users','UserController@index');
@@ -21,7 +22,6 @@ Route::group(["prefix" => "/dashboard", 'middleware' => ['auth:admin']], functio
     Route::delete('/users','UserController@destroy');
     Route::get('/orders','OrderController@notCompletedOrders');
     Route::get('/orders/completed','OrderController@completedOrders');
-
     Route::get('/logout', '\App\Http\Controllers\Auth\AdminLoginController@logout');
 
 });
@@ -29,36 +29,18 @@ Route::group(["prefix" => "/dashboard", 'middleware' => ['auth:admin']], functio
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
 Route::get('/admin-login', 'Auth\AdminLoginController@showLoginForm');
-
 Route::post('/admin-login', ['as'=>'admin-login','uses'=>'Auth\AdminLoginController@login']);
-
-
-
-
 Route::get("/store","SiteController@store");
-
-
-
-
-
-Route::get('/welcome','SiteController@welcome');
-
 Route::get('/','SiteController@home');
-
-Route::get("/groups","SiteController@getGroups");
-
-Route::get("/items",'SiteController@getItems');
-
 Route::get('items/{group}/','SiteController@getGroupItems');
-
-Route::get('storeItems','SiteController@storItems');
-
-
 Route::group(["middleware"=>"auth"],function(){
     Route::post('/orderItem/{Item}','SiteController@order');
 });
+
+
+Route::get("/groups","SiteController@getGroups");
+Route::get("/items",'SiteController@getItems');
 
 
 

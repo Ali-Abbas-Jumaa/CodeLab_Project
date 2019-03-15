@@ -14,9 +14,7 @@ class SiteController extends Controller
 
         return view("site.store");
     }
-    public function storItems(){
-        return view('site.items');
-    }
+    
 
     public function getGroupItems(Group $group){
 
