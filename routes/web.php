@@ -34,6 +34,7 @@ Route::post('/admin-login', ['as'=>'admin-login','uses'=>'Auth\AdminLoginControl
 Route::get("/store","SiteController@store");
 Route::get('/','SiteController@home');
 Route::get('items/{group}/','SiteController@getGroupItems');
+
 Route::group(["middleware"=>"auth"],function(){
     Route::post('/orderItem/{Item}','SiteController@order');
 });
