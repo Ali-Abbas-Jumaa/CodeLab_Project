@@ -39,7 +39,6 @@ Route::group(["middleware"=>"auth"],function(){
     Route::post('/orderItem/{Item}','SiteController@order');
 });
 
-
 Route::get("/groups","SiteController@getGroups");
 Route::get("/items",'SiteController@getItems');
 
