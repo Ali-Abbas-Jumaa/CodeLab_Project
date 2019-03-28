@@ -15,18 +15,22 @@ class OrderController extends Controller
      */
 
     public function notCompletedOrders(){
-        $orders = Order::where('completed','false')->get();
+        $orders = Order::where('completed','true')->get();
         //dd(Response::json($orders));
         //return Response::json($orders);
         $data = ["orders"=>$orders];
         return view('dashboard.orders.notCompleted')->with($data);
     }
+
     public function completedOrders(){
-        $orders = Order::where('completed','true')->get();
+        $orders = Order::where('completed','false')->get();
         $data = ["orders"=>$orders];
         return view('dashboard.orders.completed')->with($data);
     }
-    public function changeCompletion(){
+
+    public function change(Order $order){
+        $order->completed = !($order->completed);
+        $item->update();
         
     }
 

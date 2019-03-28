@@ -50,13 +50,13 @@
                 <li class="nav-item active  ">
                     <a class="nav-link" href="/dashboard/orders">
                         <i class="material-icons">dashboard</i>
-                        <p>Completed Orders</p>
+                        <p>Orders</p>
                     </a>
                 </li>
                 <li class="nav-item active  ">
                     <a class="nav-link" href="/dashboard/orders/completed">
                         <i class="material-icons">dashboard</i>
-                        <p>NotCompleted Orders</p>
+                        <p>completed Orders</p>
                     </a>
                 </li>
             </ul>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Shop Item - Start Bootstrap Template</title>
+    <title>eCommerce</title>
     <link href="/template/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/template/css/shop-item.css" rel="stylesheet">
 
@@ -31,7 +31,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="/about">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Cart @{{ cart }} </a>

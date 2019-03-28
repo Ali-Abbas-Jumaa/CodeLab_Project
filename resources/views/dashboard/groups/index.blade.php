@@ -9,7 +9,7 @@
                <div class="card-header">
                    <div class="row justify-content-between">
                        <div class="col-auto">
-                           <h3 class="m-0">
+                           <h3 class="m-0 text-white">
                                groups
                            </h3>
 
@@ -25,7 +25,6 @@
                        <tr>
                            <th>#</th>
                            <th>name</th>
-                           <th>price</th>
                            <th>action</th>
                        </tr>
                        </thead>
@@ -34,7 +33,6 @@
                            <tr>
                                <td>{{ $group->id }}</td>
                                <td>{{ $group->name }}</td>
-                               <td>{{ $group->price }}</td>
                                <td>
                                    <div class="btn-group btn-group-sm">
                                        <a class="btn btn-info" href="/dashboard/groups/{{ $group->id }}/edit">edit</a>

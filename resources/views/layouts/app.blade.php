@@ -18,6 +18,22 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>
+    /* body {
+  background-image: url("http://www.mobilenewscwp.co.uk/wp-content/uploads/2016/03/Phone-Shop-background.jpg");
+  background-repeat: no-repeat;
+ 
+  background-attachment: fixed;
+} */
+body {
+    background-image:url("http://www.mobilenewscwp.co.uk/wp-content/uploads/2016/03/Phone-Shop-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+html {
+    height: 100%
+}
+</style>
 </head>
 <body>
     <div id="app">

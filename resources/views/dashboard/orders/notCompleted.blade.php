@@ -37,7 +37,15 @@
                                <td>{{ $order->item->name }}</td>
                                <td>
                                    <div class="btn-group btn-group-sm">
-                                       <a class="btn btn-info" href="/dashboard/orders/{{ $order->id }}/edit">edit</a>
+                                       <!-- <a class="btn btn-info" href="/dashboard/orders/{{ $order->id }}/change">completed</a> -->
+                                       <form action="/dashboard/orders/{{ $order->id }}/change" method="post">
+                                           @csrf
+                                           @method("put")
+                                           <button type="submit" class="btn btn-info">
+                                                completed
+                                           </button>
+
+                                       </form>
                                        <form action="/dashboard/orders/{{ $order->id }}" method="post">
                                            @csrf
                                            @method("delete")
