@@ -73,9 +73,6 @@
             </div>
         </nav>
 
-
-
-
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -113,7 +110,7 @@
             </div>
         </div>
 
-        <!-- Page Content -->
+
         <div class="container">
 
             <div class="row justify-content-center align-items-lg-start">
@@ -138,7 +135,7 @@
                     </div>
                     
 
-                    <div v-for="item in items" class="card mt-4">
+                    <div v-for="item in items" class="card m-4">
                         <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
                         <div class="card-body">
                             <h3 class="card-title">@{{ item.name }}</h3>
@@ -147,8 +144,6 @@
                                 dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam
                                 sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
                             <button @click="addToCart(item)" class="btn btn-primary">Add To Cart</button>
-
-
 
                         </div>
                     </div>
@@ -160,19 +155,15 @@
             </div>
 
         </div>
-        <!-- /.container -->
 
-        <!-- Footer -->
         <footer class="py-5 bg-dark">
             <div class="container">
                 <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
             </div>
-            <!-- /.container -->
         </footer>
     </div>
 
 
-    <!-- Bootstrap core JavaScript -->
     <script src="/template/vendor/jquery/jquery.min.js"></script>
     <script src="/template/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
