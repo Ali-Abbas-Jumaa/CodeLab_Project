@@ -136,6 +136,7 @@
                             check cart
                         </button>
                     </div>
+                    
 
                     <div v-for="item in items" class="card mt-4">
                         <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">

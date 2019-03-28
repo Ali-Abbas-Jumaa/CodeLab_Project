@@ -3,7 +3,7 @@
 <head>
     <meta class="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>home</title>
+    <title>eCommerce</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">    <link rel='stylesheet' href='/Evie/css/style.min.css'/>
     <style>
         .gray{
@@ -52,8 +52,7 @@
                     <p class="hero__text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores aspernatur assumenda at blanditiis consequatur corporis culpa deleniti earum eius, praesentium quae, quia ut. Amet dicta distinctio fuga quibusdam sint.
                     </p>
-                    <a href="#" class="button button__accent">Go to store</a>
-                    {{--<a href="#" class="button hero__button">Learn more</a>--}}
+                    <a href="/" class="button button__accent">Go to store</a>
                 </div>
             </div>
         </div>
