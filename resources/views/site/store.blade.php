@@ -37,7 +37,7 @@
                             <a class="nav-link" href="#">Cart @{{ cart }} </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="https://github.com/Ali-Abbas-Jumaa/CodeLab_Project">Github</a>
                         </li>
                         @guest
                         <li class="nav-item">
