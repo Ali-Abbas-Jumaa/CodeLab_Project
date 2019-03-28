@@ -9,7 +9,7 @@
                <div class="card-header">
                    <div class="row justify-content-between">
                        <div class="col-auto">
-                           <h3 class="m-0">
+                           <h3 class="m-0 text-white">
                                items
                            </h3>
 
