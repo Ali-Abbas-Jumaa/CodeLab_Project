@@ -1,7 +1,7 @@
 @extends('coie.layouts.master')
 @section('styles')
-<link rel="stylesheet" type="text/css" href="styles/courses_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
+<link rel="stylesheet" type="text/css" href="/styles/courses_styles.css">
+<link rel="stylesheet" type="text/css" href="/styles/courses_responsive.css">
 @endsection
 
 @section('content')
