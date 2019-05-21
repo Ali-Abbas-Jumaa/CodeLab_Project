@@ -116,7 +116,7 @@
             <div class="row justify-content-center align-items-lg-start">
 
                 <div class="col-lg-3 ">
-                    <h1 class="my-4">E-Ali</h1>
+                    <h1 class="my-4">E-Commerce</h1>
                     <div class="list-group">
                         <div v-for="group in groups">
                             <a @click="getItems(`/items/${group.id}`)"

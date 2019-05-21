@@ -54,6 +54,23 @@ Route::get("/groups","SiteController@getGroups");
 
 Route::get("/items",'SiteController@getItems');
 
+Route::get('/', function () {
+    return view('coie.index');
+});
+Route::get('/teachers', function () {
+    return view('teachers');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/news', function () {
+    return view('news');
+});
+Route::get('/courses',function (){
+    return view('courses');
+});
+
 
 
 
