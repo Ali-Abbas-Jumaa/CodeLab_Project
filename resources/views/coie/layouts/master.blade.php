@@ -31,11 +31,11 @@
 			<nav class="main_nav_container">
 				<div class="main_nav">
 					<ul class="main_nav_list">
-						<li class="main_nav_item"><a href="/">home</a></li>
-						<li class="main_nav_item"><a href="/teachers">teachers</a></li>
-						<li class="main_nav_item"><a href="/courses">courses</a></li>
-						<li class="main_nav_item"><a href="/news">news</a></li>
-						<li class="main_nav_item"><a href="/contact">contact</a></li>
+						<li class="main_nav_item"><a href="/coie/">home</a></li>
+						<li class="main_nav_item"><a href="/coie/teachers">teachers</a></li>
+						<li class="main_nav_item"><a href="/coie/courses">courses</a></li>
+						<li class="main_nav_item"><a href="/coie/news">news</a></li>
+						<li class="main_nav_item"><a href="/coie/contact">contact</a></li>
 					</ul>
 				</div>
 			</nav>

@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('coie.layouts.master')
 @section('styles')
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">

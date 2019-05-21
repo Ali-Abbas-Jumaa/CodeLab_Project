@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('coie.layouts.master')
 @section('styles')
 <link rel="stylesheet" type="text/css" href="styles/teachers_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/teachers_responsive.css">
