@@ -23,7 +23,7 @@
 				<ul class="menu_list menu_mm">
 					<li class="menu_item menu_mm"><a href="#">Home</a></li>
 					<li class="menu_item menu_mm"><a href="#">About us</a></li>
-					<li class="menu_item menu_mm"><a href="courses.html">Courses</a></li>
+					<li class="menu_item menu_mm"><a href="/coie/courses">Courses</a></li>
 					<li class="menu_item menu_mm"><a href="elements.html">Elements</a></li>
 					<li class="menu_item menu_mm"><a href="news.html">News</a></li>
 					<li class="menu_item menu_mm"><a href="contact.html">Contact</a></li>

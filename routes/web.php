@@ -59,19 +59,13 @@ Route::group(["prefix" => "/coie"], function () {
 
     Route::get("/","CoieController@index");
 
-    Route::get('/teachers', function () {
-        return view('coie.teachers');
-    });
-    Route::get('/contact', function () {
-        return view('coie.contact');
-    });
+    Route::get('/teachers','CoieController@teachers');
+
+    Route::get('/contact','CoieController@contact');
     
-    Route::get('/news', function () {
-        return view('coie.news');
-    });
-    Route::get('/courses',function (){
-        return view('coie.courses');
-    });
+    Route::get('/news','CoieController@news');
+
+    Route::get('/courses','CoieController@courses');
 
 });
 

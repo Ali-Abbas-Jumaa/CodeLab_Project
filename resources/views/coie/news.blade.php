@@ -1,7 +1,7 @@
 @extends('coie.layouts.master')
 @section('styles')
-<link rel="stylesheet" type="text/css" href="styles/news_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+<link rel="stylesheet" type="text/css" href="/styles/news_styles.css">
+<link rel="stylesheet" type="text/css" href="/styles/news_responsive.css">
 @endsection
 
 @section('content')
@@ -21,7 +21,7 @@
 			</nav>
 		</div>
 		<div class="header_side d-flex flex-row justify-content-center align-items-center">
-			<img src="images/phone-call.svg" alt="">
+			<img src="/images/phone-call.svg" alt="">
 			<span>+43 4566 7788 2457</span>
 		</div>
 
@@ -77,7 +77,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url(images/news_background.jpg)"></div>
+			<div class="home_background prlx" style="background-image:url(/images/news_background.jpg)"></div>
 		</div>
 		<div class="home_content">
 			<h1>The News</h1>
@@ -98,7 +98,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="images/news_1.jpg" alt="https://unsplash.com/@dsmacinnes">
+								<img src="/images/news_1.jpg" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -129,7 +129,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="images/news_2.jpg" alt="https://unsplash.com/@dsmacinnes">
+								<img src="/images/news_2.jpg" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -160,7 +160,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<!-- News Post -->
 						<div class="news_post">
 							<div class="news_post_image">
-								<img src="images/news_3.jpg" alt="https://unsplash.com/@dsmacinnes">
+								<img src="/images/news_3.jpg" alt="https://unsplash.com/@dsmacinnes">
 							</div>
 							<div class="news_post_top d-flex flex-column flex-sm-row">
 								<div class="news_post_date_container">
@@ -232,7 +232,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="images/latest_1.jpg" alt="https://unsplash.com/@dsmacinnes">
+										<img src="/images/latest_1.jpg" alt="https://unsplash.com/@dsmacinnes">
 									</div>
 									<div class="latest_post_title"><a href="news_post.html">Why do you need a qualification?</a></div>
 									<div class="latest_post_meta">
@@ -245,7 +245,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="images/latest_2.jpg" alt="https://unsplash.com/@erothermel">
+										<img src="/images/latest_2.jpg" alt="https://unsplash.com/@erothermel">
 									</div>
 									<div class="latest_post_title"><a href="news_post.html">Why do you need a qualification?</a></div>
 									<div class="latest_post_meta">
@@ -258,7 +258,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<!-- Latest Post -->
 								<div class="latest_post">
 									<div class="latest_post_image">
-										<img src="images/latest_3.jpg" alt="https://unsplash.com/@element5digital">
+										<img src="/images/latest_3.jpg" alt="https://unsplash.com/@element5digital">
 									</div>
 									<div class="latest_post_title"><a href="news_post.html">Why do you need a qualification?</a></div>
 									<div class="latest_post_meta">
@@ -336,7 +336,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<!-- Logo -->
 						<div class="logo_container">
 							<div class="logo">
-								<img src="images/logo.png" alt="">
+								<img src="/images/logo.png" alt="">
 								<span>course</span>
 							</div>
 						</div>
@@ -383,19 +383,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							<ul>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="/images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									Blvd Libertad, 34 m05200 Arévalo
 								</li>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="/images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									0034 37483 2445 322
 								</li>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="/images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>hello@company.com
 								</li>
 							</ul>
@@ -427,17 +427,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="js/news_custom.js"></script>
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/styles/bootstrap4/popper.js"></script>
+<script src="/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="/plugins/greensock/TweenMax.min.js"></script>
+<script src="/plugins/greensock/TimelineMax.min.js"></script>
+<script src="/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="/plugins/greensock/animation.gsap.min.js"></script>
+<script src="/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="/plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="/plugins/easing/easing.js"></script>
+<script src="/js/news_custom.js"></script>
 
 </body>
 </html>

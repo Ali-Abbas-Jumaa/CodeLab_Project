@@ -1,7 +1,7 @@
 @extends('coie.layouts.master')
 @section('styles')
-	<link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
-	<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+	<link rel="stylesheet" type="text/css" href="/styles/contact_styles.css">
+	<link rel="stylesheet" type="text/css" href="/styles/contact_responsive.css">
 @endsection
 
 @section('content')
@@ -49,7 +49,7 @@
 
 	<div class="home">
 		<div class="home_background_container prlx_parent">
-			<div class="home_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
+			<div class="home_background prlx" style="background-image:url(/images/contact_background.jpg)"></div>
 		</div>
 		<div class="home_content">
 			<h1>Contact</h1>
@@ -88,19 +88,19 @@
 							<ul>
 								<li class="contact_info_item">
 									<div class="contact_info_icon">
-										<img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="/images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									Blvd Libertad, 34 m05200 Arévalo
 								</li>
 								<li class="contact_info_item">
 									<div class="contact_info_icon">
-										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="/images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									0034 37483 2445 322
 								</li>
 								<li class="contact_info_item">
 									<div class="contact_info_icon">
-										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="/images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>hello@company.com
 								</li>
 							</ul>
@@ -168,7 +168,7 @@
 						<!-- Logo -->
 						<div class="logo_container">
 							<div class="logo">
-								<img src="images/logo.png" alt="">
+								<img src="/images/logo.png" alt="">
 								<span>course</span>
 							</div>
 						</div>
@@ -215,19 +215,19 @@
 							<ul>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="/images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									Blvd Libertad, 34 m05200 Arévalo
 								</li>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="/images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>
 									0034 37483 2445 322
 								</li>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
-										<img src="images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
+										<img src="/images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
 									</div>hello@company.com
 								</li>
 							</ul>
@@ -261,18 +261,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/styles/bootstrap4/popper.js"></script>
+<script src="/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="/plugins/greensock/TweenMax.min.js"></script>
+<script src="/plugins/greensock/TimelineMax.min.js"></script>
+<script src="/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="/plugins/greensock/animation.gsap.min.js"></script>
+<script src="/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="/plugins/scrollTo/jquery.scrollTo.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="js/contact_custom.js"></script>
+<script src="/plugins/easing/easing.js"></script>
+<script src="/js/contact_custom.js"></script>
 
 </body>
 </html>
