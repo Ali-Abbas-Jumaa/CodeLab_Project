@@ -60,7 +60,7 @@
 
 	<div class="contact">
 		<div class="container">
-			<div class="row">
+			<div class="row justify-content-center">
 				<div class="col-lg-8">
 					
 					<!-- Contact Form -->
@@ -79,35 +79,7 @@
 						
 				</div>
 
-				<div class="col-lg-4">
-					<div class="about">
-						<div class="about_title">Join Courses</div>
-						<p class="about_text">In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Etiam eu purus nec eros varius luctus. Praesent finibus risus facilisis ultricies. Etiam eu purus nec eros varius luctus.</p>
-
-						<div class="contact_info">
-							<ul>
-								<li class="contact_info_item">
-									<div class="contact_info_icon">
-										<img src="/images/placeholder.svg" alt="https://www.flaticon.com/authors/lucy-g">
-									</div>
-									Blvd Libertad, 34 m05200 Arévalo
-								</li>
-								<li class="contact_info_item">
-									<div class="contact_info_icon">
-										<img src="/images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
-									</div>
-									0034 37483 2445 322
-								</li>
-								<li class="contact_info_item">
-									<div class="contact_info_icon">
-										<img src="/images/envelope.svg" alt="https://www.flaticon.com/authors/lucy-g">
-									</div>hello@company.com
-								</li>
-							</ul>
-						</div>
-
-					</div>
-				</div>
+				
 
 			</div>
 
